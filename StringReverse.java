@@ -1,0 +1,15 @@
+public class StringReverse {
+    public static String reverse(String str){
+        if(str==""){
+            return str;
+        }
+        String rev=reverse(str.substring(1));
+        return rev+str.charAt(0);
+
+    }
+    public static void main(String[] args) {
+        System.out.println(reverse("Avinash"));
+        
+    }
+    
+}
