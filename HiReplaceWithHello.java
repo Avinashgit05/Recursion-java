@@ -1,5 +1,6 @@
 public class HiReplaceWithHello {
     public static String hiReplaceWithHello(String str ){
+        //base case.
         if(str.length()<=1){
             return str;
         }
