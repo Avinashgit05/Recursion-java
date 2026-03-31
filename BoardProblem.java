@@ -1,3 +1,4 @@
+//dice baord problem.
 public class BoardProblem {
     public static void boardProblem(int currentVal, int endVal, String result){
         if(currentVal==endVal){
