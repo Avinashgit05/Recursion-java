@@ -1,0 +1,12 @@
+public class Josephus {
+    public static int josephus(int n , int k){
+        if(n==0){
+            return 0;
+        }
+        return (josephus(n-1, k)+k)%n;
+    }
+
+    public static  void main(String args[]){
+        System.out.println(josephus(5, 3));
+    }
+}
